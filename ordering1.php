@@ -18,8 +18,6 @@ function pizzaPrice($pizzaName, $basePrice, $toppingsAmount, $currency="kr", $to
 <body>
 <?php
 pizzaPrice('small',60,2,'EUR');
-pizzaPrice('medium',80,2,'kr','25');
-pizzaPrice('large',100,5);
 ?>
 </body>
 </html>
